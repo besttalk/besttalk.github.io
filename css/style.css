@@ -1,0 +1,270 @@
+body {
+    background-color: #1E2633;
+    color: #2d3e50;
+    margin: 0;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+hr {
+    background: none repeat scroll 0 0 #5fa2e6;
+    border: 0 none;
+    height: 5px;
+    width: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: -4px;
+}
+
+h2 {
+    color: #5E6165;
+    font-size: 33px;
+    line-height: 38px;
+    margin-bottom: 22px;
+}
+
+h3 {
+    color: #6F7D8C;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: gray;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #919da8;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.color-white {
+    color: white;
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+.background-color-darckgray {
+    background-color: rgb(30, 38, 51);
+}
+
+.background-color-gray {
+    background-color: #E8EAEA;
+}
+
+.padding {
+    padding: 60px 0px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-none {
+    padding: -30px;
+}
+
+.padding-bottom-35 {
+    padding-bottom: 35px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.border-bottom {
+    padding: 30px 0px;
+}
+
+.langlist {
+    padding-top: 24px;
+    float: right;
+    text-align: right;
+}
+
+.lang_box {
+    margin: 5px;
+    color: lightgray;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.header {
+    position: relative;
+    z-index: 0;
+    height: 600px;
+    overflow: hidden;
+}
+
+.header-margin {
+    margin-top: 10%;
+    margin-bottom: 20px !important;
+}
+
+.header-img {
+    position: absolute;
+    width: 100%;
+    transition: 3s linear opacity;
+    opacity: 1;
+}
+
+.btn-default {
+    background-color: #e65f5f;
+    border-color: transparent;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    height: 55px;
+    padding: 16px 30px;
+}
+
+.trans {
+    opacity: 0;
+}
+
+.navbar-default {
+    background-color: rgb(30, 38, 51);
+    border-color: rgb(30, 38, 51);
+    height: 65px;
+}
+
+.nav-text {
+    font-size: 20px;
+    color: lightgray;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 50px;
+    top: 26px;
+}
+
+.fa {
+    color: #5fa2e6}
+
+.main-icons {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #edeef0;
+    border-radius: 80px;
+    padding-top: 50px;
+}
+
+.gray-box {
+    background: #323949;
+    padding: 15px 20px 5px 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.color-box {
+    background: #5fa2e6;
+    padding: 15px 20px 5px 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.fa-envelope-o, .fa-phone {
+    color: white;
+    padding: 5px;
+}
+
+.fa-at {
+    color: white;
+}
+
+.contakt-info {
+    color: white;
+    font-size: 14px
+}
+
+.company-name {
+    color: #5fa2e6;
+    font-weight: bold;
+}
+
+.client-name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 4px;
+    color: #5E6165;
+}
+
+.client-item {
+    padding: 30px 0px;
+    border-bottom: 2px solid #5fa2e6;
+}
+
+.link {
+    color: #919da8;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@media (max-width: 980px) {
+    .header-img {
+        height: 100%;
+    }
+    .header {
+        height: 450px;
+    }
+    .langlist {
+        font-size: 10px;
+        padding-top: 29px;
+    }
+    .nav-text {
+        font-size: 15px;
+        top: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 60px;
+    }
+        .nav-text {
+        top: 25px;
+        left: 10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    .fa-check-square-o {
+        display: none;
+    }
+    .nav-text {
+        top: 25px;
+        left: 10px;
+        font-size: 18px;
+    }
+}
